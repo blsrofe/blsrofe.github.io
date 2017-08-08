@@ -1,0 +1,32 @@
+body {
+  background-color: #b6dbe7;
+}
+
+#header {
+  background-color: #a4c9d5;
+  text-align: center;
+  margin-top: -15px;
+}
+
+body p {
+  font-size: 30px;
+}
+
+#footer {
+  text-align: center;
+  clear: both;
+}
+
+#picture {
+  float: left;
+}
+
+.nav {
+  display: inline-block;
+  float: right;
+  margin: 5px 15px 2px 15px;
+}
+
+a:hover {
+  font-style: italic;
+}
