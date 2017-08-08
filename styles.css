@@ -1,5 +1,8 @@
 body {
   background-color: #b6dbe7;
+  margin:0;
+  padding:0;
+  height:100%;
 }
 
 #header {
@@ -15,6 +18,10 @@ body p {
 #footer {
   text-align: center;
   clear: both;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;
 }
 
 #picture {
@@ -29,4 +36,9 @@ body p {
 
 a:hover {
   font-style: italic;
+}
+
+#content {
+  min-height:100%;
+  position:relative;
 }
