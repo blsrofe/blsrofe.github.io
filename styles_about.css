@@ -9,6 +9,7 @@ body {
   background-color: #6d7993;
   text-align: center;
   margin-top: -15px;
+  font-family: cursive;
 }
 
 #footer {
@@ -39,4 +40,9 @@ a:hover {
 #github {
   max-width:45%;
   max-height:45%;
+}
+
+.list {
+  color: #4682B4;
+  font-weight: bold;
 }

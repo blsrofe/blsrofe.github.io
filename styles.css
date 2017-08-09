@@ -9,6 +9,7 @@ body {
   background-color: #6d7993;
   text-align: center;
   margin-top: -15px;
+  font-family: Cursive;
 }
 
 body p {
@@ -26,7 +27,7 @@ body p {
 }
 
 #picture {
-  float: left;
+  text-align: center;
 }
 
 .nav {
@@ -42,8 +43,7 @@ a:hover {
 #content {
   min-height:100%;
   position:relative;
-
-  float: right;
+  font-size:20px;
 }
 
 #github {
