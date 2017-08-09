@@ -13,9 +13,6 @@ body {
 }
 
 #footer {
-
-  clear: both;
-  position:absolute;
   bottom:0;
   width:100%;
   height:60px;
@@ -38,11 +35,16 @@ a:hover {
 }
 
 #github {
-  max-width:45%;
-  max-height:45%;
+  max-width:5%;
+  max-height:5%;
 }
 
 .list {
   color: #4682B4;
   font-weight: bold;
+}
+
+.foot {
+  display: inline-block;
+  text-align: center;
 }
