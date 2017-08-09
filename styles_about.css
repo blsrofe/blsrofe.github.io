@@ -11,10 +11,6 @@ body {
   margin-top: -15px;
 }
 
-body p {
-  font-size: 30px;
-}
-
 #footer {
 
   clear: both;
@@ -26,13 +22,7 @@ body p {
 }
 
 #picture {
-  float: left;
-}
-
-.nav {
-  display: inline-block;
-  float: right;
-  margin: 5px 15px 2px 15px;
+text-align: center;
 }
 
 a:hover {
@@ -42,8 +32,8 @@ a:hover {
 #content {
   min-height:100%;
   position:relative;
-
-  float: right;
+  font-size: 20px;
+  margin: 10px 20px 10px 20px;
 }
 
 #github {
